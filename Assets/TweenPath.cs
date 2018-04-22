@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TweenPath : MonoBehaviour {
 
-	public AnimationCurve x;
-	public AnimationCurve y;
-	public AnimationCurve z;
+	public AnimationCurve x = AnimationCurve.Linear (0, 0, 1, 1);
+	public AnimationCurve y = AnimationCurve.Linear (0, 0, 1, 1);
+	public AnimationCurve z = AnimationCurve.Linear (0, 0, 1, 1);
 	public Bounds bounds;
 
 	Matrix4x4 m_matrix;
